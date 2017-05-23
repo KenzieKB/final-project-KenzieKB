@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Main.css">
+
+<body background="background.jpg">
+<style>
+body {
+    background-image: url("background.jpg");
+      background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+</style>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-=b w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="About.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="Learned.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">What I Learned</a>
+    <a href="Project.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">My Projects</a>
+    <a href="Github.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Why GitHub Is Important</a>
+    <a href="Korean.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">K-Pop</a>
+    <a href="Website.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">My Next Web Language</a>
+
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="About Me!">
+    <h1 class="w3-jumbo"><b>About Me!</b></h1>
+    <p>I'm a 15 year old who likes K-Pop and Graphic Design.</p>
+
+
+    </button>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-white">My favorite Things</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="graphic.jpg" style="width:100%">
+        <img src="spooky.jpg" style="width:100%">
+        <img src="family.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="kpop.jpg" style="width:100%">
+        <img src="food.png" style="width:100%">
+        <img src="youtube.png" style="width:100%">
+        <img src="read.jpg" style="width:100%">
+      </div>
+
+      <style>
+      img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=50); /* For IE8 and earlier */
+      }
+    </style>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About Me!</h2>
+    <hr class="w3-opacity">
+    <p>As I said before I'm A 15 year old who likes to listen to Kpop and Graphic Design, but I also enjoy Read/Writing and I also like talking with my internet friends. There are all kinds of things that I can say that I like but that will take forever.
+      But What I will do Is say why I am interested In Graphic Design and Coding. I don't exactly remember when I fell in love with the thought of being a game creator but it just hit me one day. Now before all of that I wanted to be a Vet, Writer, and I even
+      wanted to become a Detective, but eventually I didn't really know what I wanted to do. That was when I got my first Phone and watched my first youtube video, which was a gaming video. The Game I watched was Shadow of the Colossus, and what I liked about it was the amazing graphics
+      and I believe that was when I wanted to become a Game Creator.
+
+
+  <script>
+function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
