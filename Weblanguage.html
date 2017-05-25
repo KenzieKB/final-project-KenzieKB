@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<title>My Next Web Language!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #FFFFFF;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('web.jpg');
+    min-height: 100%;
+}
+
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body bgcolor="#000000">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="About.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="Learned.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> WHAT I LEARNED</a>
+    <a href="Project.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> PROJECTS</a>
+    <a href="Github.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GITHUB</a>
+    <a href="Korean.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>K-POP</a>
+    <a href="Weblanguage.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>NEXT WEB LANGUAGE</a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="About.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    <a href="Learned.html" class="w3-bar-item w3-button" onclick="toggleFunction()">WHAT I LEARNED</a>
+    <a href="Github.html" class="w3-bar-item w3-button" onclick="toggleFunction()">WHY GIHUB IS IMPORANT</a>
+    <a href="Korean.html" class="w3-bar-item w3-button" onclick="toggleFunction()">K-POP</a>
+    <a href="Weblanguage.html" class="w3-bar-item w3-button" onclick="toggleFunction()">MY NEXT WEB LANGUAGE</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">NEXT</span> WEB LANGUANGE</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">JAVASCRIPT!!</h3>
+  <p>I think Learning more java script would be fun to do mostly because of all of the different things you can do with it, like creating clocks, calculaters, and even making games!! That all in all seems really good to me, but if I couldn't do javascript I would do...</p>
+  <div class="w3-row">
+<img src="Java.jpg" alt="Kpop group, EXO" height="400" width="400">
+
+
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <h3 class="w3-center">PYTHON!!</h3>
+      <p>I think Learning more Python would be challenging to do, in computer science pricnables we did a bit with python, but I would like to learn more about it.</p>
+      <div class="w3-row">
+<img src="Python.png" alt="Kpop group, EXO" height="400" width="400">
+
+
+</body>
+</html>
